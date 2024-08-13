@@ -447,7 +447,7 @@ def initiatePrunGame():
     # load a random QSM model of the 7 given young plane tree examples
     global randTreeNo
     randTreeNo = np.random.randint(1, 8)
-    df_source = pd.read_csv('OptQSM_R1016_P1to7.csv')
+    df_source = pd.read_csv('dependency/OptQSM_R1016_P1to7.csv')
     df = df_source[df_source['treeID'] == randTreeNo]
     df = df.drop(columns=['fieldID', 'treeID', 'addedVirtual'])
     
