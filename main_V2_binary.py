@@ -1,13 +1,12 @@
 import torch
-from config import Config
-from trainer import Train_and_Evaluate
-from env import TreeEnv
-from prunEnv_binary import PrunEnvWrapper
+from src import config
+from src import trainer
+from src import prunEnv_V2_binary
 
-config = Config()
+config = config.Config()
 config.seed = 42 #123456
 config.train = True
-config.environment = PrunEnvWrapper() #TreeEnv()
+config.environment = prunEnv_V2_binary.PrunEnvWrapper() #TreeEnv()
 config.file_to_save = 'results/'
 config.standard_deviation_results = 1.0 # for visualization
 config.save_freq = 5
@@ -41,5 +40,5 @@ config.hyperparameters = {
 
 if __name__ == "__main__":
     print("Running")
-    trainer = Train_and_Evaluate(config=config)
+    trainer = trainer.Train_and_Evaluate(config=config)
     trainer.train_agent(train_existing=False)
