@@ -1,34 +1,34 @@
 ﻿## About The Project
 
 1. Folder Structure
-    ```
-    ├── README.md (guidance instruction)
-    ├── LICENSE (Creative Commons Attribution 4.0 International Public License)
-    ├── requirement.txt (required libraries in the environment)
-    ├── BranchPrunGame_V1.py (first tree growth game version with user interface)
-    ├── BranchPrunGame_V2_binary.py (a simplified tree growth game version with only binary voxels, user interface embeded)
-    ├── main_V1.py (deep reinforcement learning in playing BranchPrunGame_V1)
-    ├── main_V2_binary.py (deep reinforcement learning in playing BranchPrunGame_V2_binary)
-    ├── dependency (required model and data for BranchPrunGame_V1)
-        ├── OptQSM_R1016_P1to7.csv (QSMs of 7 young plane trees at a nursery)
+    ```bash
+    ├── README.md                         (guidance instruction)
+    ├── LICENSE                           (Creative Commons Attribution 4.0 International Public License)
+    ├── requirement.txt                   (required libraries in the environment)
+    ├── BranchPrunGame_V1.py              (first tree growth game version with user interface)
+    ├── BranchPrunGame_V2_binary.py       (a simplified tree growth game version with only binary voxels, user interface embeded)
+    ├── main_V1.py                        (deep reinforcement learning in playing BranchPrunGame_V1)
+    ├── main_V2_binary.py                 (deep reinforcement learning in playing BranchPrunGame_V2_binary)
+    ├── dependency                        (required model and data for BranchPrunGame_V1)
+        ├── OptQSM_R1016_P1to7.csv        (QSMs of 7 young plane trees at a nursery)
         ├── HGBRegression_preLAD_3MainIndex.joblib (regression model to predict LAD based on QSM)
         └── std_scaler_preLAD_3MainIndex.bin (the scaler cooresponding to the regression model to predict LAD based on QSM)
     ├── src
-        ├── config.py (selecting neural network and hyperparameters)
+        ├── config.py                     (selecting neural network and hyperparameters)
         ├── logger.py
-        ├── prunEnv_V1.py (embeded BranchPrunGame_V1 for deep reinforcement learning)
-        ├── prunEnv_V2_binary.py (embeded BranchPrunGame_V2_binary for deep reinforcement learning)
-        └── trainer.py (setting action space)
-    ├── utilities (fundamentals for deep reinforcement learning)
+        ├── prunEnv_V1.py                 (embeded BranchPrunGame_V1 for deep reinforcement learning)
+        ├── prunEnv_V2_binary.py          (embeded BranchPrunGame_V2_binary for deep reinforcement learning)
+        └── trainer.py                    (setting action space)
+    ├── utilities                         (fundamentals for deep reinforcement learning)
         ├── __init__.py
         ├── memory.py
         └── utilities.py
-    ├── agents (setup of a PDQN network)
+    ├── agents                            (setup of a PDQN network)
         ├── __init__.py
         ├── base_agent.py
         ├── net.py
         └── pdqn.py
-    └── img (images for this instruction)
+    └── img                               (images for this instruction)
     ```
 
 <!-- GETTING STARTED -->
