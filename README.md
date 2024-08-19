@@ -1,7 +1,7 @@
 ﻿## About The Project
 
 1. Folder Structure
-    ```bash
+    ```
     ├── README.md                         (guidance instruction)
     ├── LICENSE                           (Creative Commons Attribution 4.0 International Public License)
     ├── requirement.txt                   (required libraries in the environment)
