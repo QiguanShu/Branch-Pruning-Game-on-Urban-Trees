@@ -70,6 +70,15 @@ To install the branch pruning game, please follow these steps:
     BranchPrunGame_V1.py
     ```
 
+When the game starts correctly, you will see such a user interface.
+![an example of the user interface when the program starts](img/UI_PrunGame_start.png)
+
+Click on the "Start/Restart" button to start the game. Then you are able to choose a pruning type and given a parameter to this pruning type. Confirm your choice by clicking on "Simulate Round" button.
+![an example of the user interface when you have played several rounds of the game](img/UI_PrunGame_middle.png)
+
+If you choose "end_game" in the option, and click on the "Simulate Round", the pruning game will be over.
+![an example of the user interface when the program ends](img/UI_PrunGame_end.png)
+
 This version is still not very efficient in running. A video demonstration is uploaded to Youtube: https://youtu.be/vt_yLawogDA
 If your computer could not run the version above, you could still try the simplified version below. This will also help you to have a basic understanding of what this pruning game is about.
 
