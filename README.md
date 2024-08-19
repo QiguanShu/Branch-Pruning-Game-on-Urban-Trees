@@ -80,6 +80,7 @@ If you choose "end_game" in the option, and click on the "Simulate Round", the p
 ![an example of the user interface when the program ends](img/UI_PrunGame_end.png)
 
 This version is still not very efficient in running. A video demonstration is uploaded to Youtube: https://youtu.be/vt_yLawogDA
+
 If your computer could not run the version above, you could still try the simplified version below. This will also help you to have a basic understanding of what this pruning game is about.
 
 2. To run the simplified tree growth game without QSM and only with binary voxels:
