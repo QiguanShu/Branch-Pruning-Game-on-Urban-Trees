@@ -16,3 +16,5 @@ python-tzdata=2023.3
 scikit-learn=1.2.1
 scipy=1.10.0
 matplotlib=3.7.5
+numpy>=1.24.3
+torch>=2.2.2
