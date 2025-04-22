@@ -112,4 +112,4 @@ This project is carried out by:
 - **[KaiZhe Boey](https://github.com/kzboey)**
 
 The source code here were served as part of a research project named Urban Green System 4.0 funded by the German Research Foundation under No. DFG-GZ: LU2505/2-1.
-For More Information, please check our publication: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4927534
+For More Information, please check our publication: https://doi.org/10.1108/SASBE-10-2024-0427
